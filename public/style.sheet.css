@@ -1,0 +1,53 @@
+header{
+    background: #14b452;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 3em; 
+    margin: auto;
+    padding: .5em ;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+body{
+    background: #c2c2c2;
+}
+.aboutsomething{
+    margin: 2em;
+    padding:0.5em;
+    display: flex;
+    flex-direction: row;
+   justify-content:center;
+    align-items: flex-start;
+}
+#person1{
+    border: 0.5em solid orange;
+    background: rgb(243, 201, 123);
+    margin: 1em;
+    padding: 0.5em;
+}
+#person2{
+    border: 0.5em solid purple;
+    background: rgb(255, 135, 255);
+    margin: 1em;
+    padding:0.5em;
+}
+#person3{
+    border: 0.5em solid green;
+    background: rgb(137, 255, 137);
+    margin: 1em;
+    padding: 0.5em;
+}
+#person4{
+    border: 0.5em solid pink;
+    background: rgb(252, 224, 228);
+    margin: 1em;
+    padding:0.5em;
+}
+.flower{
+    object-fit: contain;
+    height: 13em;
+    width: 13em;
+
+}
