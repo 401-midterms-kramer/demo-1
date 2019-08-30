@@ -57,10 +57,12 @@ body{
 .flower{
     border: 0.25em solid whitesmoke;
     border-radius: 0.5em;
-    box-shadow: 0em 0.2em 0.4em 0em gray, 0 0.4em 10em 0 gray;
+    box-shadow: 0em 0.2em 0.4em 0em rgb(150, 150, 150), 0 0.4em 10em 0 gray;
     justify-content: center;
     height: 13em;
     width: 13em;
     margin-bottom: 1em;
-
+}
+.flower:hover{
+    box-shadow: 0em 0.2em 0.4em 0em rgb(22, 22, 22), 0 0.4em 10em 0 rgb(182, 180, 180);
 }
