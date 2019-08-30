@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/401-midterms-kramer/demo-1#readme",
   "dependencies": {
+    "@project-jetpack/beam-me-up": "^1.0.1",
     "dotenv": "^8.1.0",
     "express": "^4.17.1"
   }
