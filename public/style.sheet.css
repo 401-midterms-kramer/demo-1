@@ -28,6 +28,7 @@ body{
     border-radius: 1em;
     background: rgb(243, 201, 123);
     margin: 1em;
+    margin-left:2em; 
     padding: 0.5em;
 }
 #person2{
@@ -49,6 +50,7 @@ body{
     border-radius: 1em;
     background: rgb(252, 224, 228); 
     margin: 1em;
+    margin-right: 3em;
     padding:0.5em;
 }
 
@@ -59,5 +61,6 @@ body{
     justify-content: center;
     height: 13em;
     width: 13em;
+    margin-bottom: 1em;
 
 }
