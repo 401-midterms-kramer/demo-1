@@ -12,41 +12,51 @@ header{
 }
 body{
     background: #c2c2c2;
+    flex-basis: 1em;
+    flex-wrap: wrap;
 }
 .aboutsomething{
     margin: 2em;
     padding:0.5em;
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
    justify-content:center;
-    align-items: flex-start;
 }
+
 #person1{
     border: 0.5em solid orange;
+    border-radius: 1em;
     background: rgb(243, 201, 123);
     margin: 1em;
     padding: 0.5em;
 }
 #person2{
     border: 0.5em solid purple;
+    border-radius: 1em;
     background: rgb(255, 135, 255);
     margin: 1em;
     padding:0.5em;
 }
 #person3{
     border: 0.5em solid green;
+    border-radius: 1em;
     background: rgb(137, 255, 137);
     margin: 1em;
     padding: 0.5em;
 }
 #person4{
     border: 0.5em solid pink;
-    background: rgb(252, 224, 228);
+    border-radius: 1em;
+    background: rgb(252, 224, 228); 
     margin: 1em;
     padding:0.5em;
 }
+
 .flower{
-    object-fit: contain;
+    border: 0.25em solid whitesmoke;
+    border-radius: 0.5em;
+    box-shadow: 0em 0.2em 0.4em 0em gray, 0 0.4em 10em 0 gray;
+    justify-content: center;
     height: 13em;
     width: 13em;
 
