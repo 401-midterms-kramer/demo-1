@@ -4,5 +4,7 @@
 
 IFS='/' read -r -a array <<< "$1"
 NAME=${array[4]}
+cd public
 git clone $1
-cp $NAME/* ./
+mv $NAME/* ./
+rm -rf $NAME
